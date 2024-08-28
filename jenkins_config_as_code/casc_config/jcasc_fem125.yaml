@@ -1,0 +1,862 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - usernamePassword:
+          description: "NEW Credentials for LDAP"
+          id: "84d1a678-a523-40ca-988e-f0d45c5305ad"
+          password: "{AQAAABAAAAAgvT2dhNkWLSjcKLOKoleYSr29gerlTrOQ9Z2OnX86FQJFzxna4SM+qfhdQHK62yBx}"
+          scope: GLOBAL
+          username: "lciadm100"
+      - usernamePassword:
+          description: "NEW Credentials for Artifactory"
+          id: "8f990337-f583-477a-ab2b-1ba6579e4029"
+          password: "{AQAAABAAAAAQMkWsbPVjqBMXA/bpY+7RCwBbzJIb92gTGBDeZKvaMcM=}"
+          scope: GLOBAL
+          username: "lciadm100"
+      - usernamePassword:
+          id: "40c62398-6f39-4ea6-8d6c-dd28096f4f35"
+          password: "{AQAAABAAAAAQTctWBfuscEHtyXJM+zHs9HDOGCfMZXwklbs3+hHQfq8=}"
+          scope: GLOBAL
+          username: "root"
+      - basicSSHUserPrivateKey:
+          description: "functional user account"
+          id: "bb9f48b1-1cec-43ae-a30a-f7c6e24a1446"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "osscnci"
+      - usernamePassword:
+          id: "e23b9442-b2f5-454b-a19d-3f03f3338070"
+          password: "{AQAAABAAAAAQ9qoJx7bwnNwdTlGWgErZbGiYi6WgSuc0H1Ui0SN/Bzs=}"
+          scope: GLOBAL
+          username: "root"
+      - usernamePassword:
+          id: "ec7d794d-a917-478a-afc5-110e36574e0c"
+          password: "{AQAAABAAAAAQf7JJDvJx+EQc4ORBDC4EsKnN/FwrbXqzicbvVIrZzVc=}"
+          scope: GLOBAL
+          username: "Administrator"
+      - basicSSHUserPrivateKey:
+          id: "c9ccd7d9-fbcd-48c6-9597-0b732b50be3a"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "lciadm100"
+      - usernamePassword:
+          description: "SERO Artifactory Credentials"
+          id: "osscnciArtifactoryApiKeySERO"
+          password: "{AQAAABAAAABQbsGvlAfAqZG+l/JMtvx/7N5GuLiskC+1KBGR9Gbc2B0ZjwISMRZw7rtLH27zCpv/AI8csMt8xNZTGPn1XUUAJG1oW3dcRyscos8snIcmDOMvpE9i3F2ayjYlqhd55eQN}"
+          scope: GLOBAL
+          username: "osscnci"
+      - usernamePassword:
+          description: "SELI Artifactory Credentials"
+          id: "osscnciArtifactoryApiKeySELI"
+          password: "{AQAAABAAAABQZpP56aPbtPjNFtbwv80uBI5Zld5V1hBimpVGTu+VjCCMiCpn8VaRCNbLO51PSSHRBvo3v7cRBPdmwUSitWmp0CcOnQlMmeOmwdOHJY5hMQKbX9H9rdOyZP6L6kzI7DRk}"
+          scope: GLOBAL
+          username: "osscnci"
+      - usernamePassword:
+          description: "SERO Artifactory Credentials (for osscnci user)"
+          id: "ejenksonomArtifactoryApiKey"
+          password: "{AQAAABAAAABQXELT0oLAMkRR0ZLlAtksX0NuXYkSbLIG35KezlbRAx/bq8KkTi6MfbcxzPy6pgZty3fIFdpvSpocryf7YtCPCe4eMe5E40q7aHMiqj0v6Z4NOT0SU/2G7jb0RGWI0MUO}"
+          scope: GLOBAL
+          username: "osscnci"
+      - usernamePassword:
+          id: "012dee87-c2aa-459e-b962-30a64f5e679d"
+          password: "{AQAAABAAAAAwwHRJ+SwNHRPYjX/+p22fBWVPTmdD+Qkg/7ZpWmsN5y/ogcheQ2d0HsmD5vbGWWzi8AqGyuxQQyoNAJNVEYD+Pg==}"
+          scope: GLOBAL
+          username: "ossncci"
+      - usernamePassword:
+          id: "0279e393-5a58-49ef-a1d8-619dcb429a5a"
+          password: "{AQAAABAAAAAwWeeOTSBMWNwg+WaFUU/0t6AjOoHDmwcJ6/efQlAjXThhQgLhjKmv+JLZi2owxlgKNa8CvVa+/Iz/rMeMjGXcQw==}"
+          scope: GLOBAL
+          username: "osscnci"
+      - string:
+          id: "osscnci"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAw51AtL0X2oCSYWOQsbGs1+ZAMuZDdMmL9d7Tnj5jkoW5JHwJ2Z0qgW5Iz/cRkQFkJy2gW2euW+SRI3Ky7+oFyjw==}"
+      - string:
+          id: "2969bf47-fe55-41fa-8921-9049745ec1ea"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwnxHJ9n2/h6taYM9+NYwuV59gCHI4EFvrILdxqMNqSFJhO6nPkWf7hrYG8YKCd1cqdhFApZ2GX1P4QnLEG4BeMg==}"
+      - file:
+          description: "lciadm100 docker auth credentials"
+          fileName: "config.json"
+          id: "lciadm100-docker-auth"
+          scope: GLOBAL
+          secretBytes: "{uzeDZI81180HiwfO6XqDfYrMrYkVOx2qO8zzKQq065fPzrcDBdkPZUGrlsEHrJbWR1V3Gfep4kg8Z7YLz9aZwf58Og6/tENmLdwKfOoUI9kWMBUTG41BH3OCQZe83kc1qCccBZQQmIFxcO/PD99UOUrHM20G2u5CfPxaM595A1iF4Nx5Om4QrJdMW1PmBzdIBd17pcA7F46NK9xR5KYz1P0rEiJhTHnpveP6/yks5MCZdbUc59drocerLl2QtK76rMkRgre6tLMwjSBWHxwJJlsoUbPh95GY5GNo+YeiSfq0m7nJyOJWN9VGMsAQHbTO7F+GxIg6ctP/CCyscsjmbs79meDiwSupSjd33Ms7oqco/BjA7pMllYwTqXSlYvhXvEWv/pABurZ8xcw9NTjTfolszi8csmNs7VxvaEJnsAJEYVZXa07bBYx0c2VB8UMj5WWSWnJBv3LKouCneyCxaon14Z3/hh8jaEXjmjQaE8RyZ2Dgi/xbuls+HuEIWYhf}"
+      - string:
+          description: "HELM REPO API TOKEN"
+          id: "lciadm100"
+          scope: GLOBAL
+          secret: "{AQAAABAAAABQ3BQOuQ2M9v0uf0oHma+2Smod/XFoZlKowaI3Bbnc4NjHTRuccpx6AXnUEASEs0jvlY5TQH+M2Qt7w33HK3+E022LhSZ3RldhhWUcq8mTwpcuKprT6tKTz3AWK6GOLtgI}"
+jenkins:
+  agentProtocols:
+  - "JNLP4-connect"
+  - "Ping"
+  authorizationStrategy:
+    globalMatrix:
+      permissions:
+      - "Job/Build:aispinn"
+      - "Job/Cancel:aispinn"
+      - "Job/Configure:aispinn"
+      - "Job/Create:aispinn"
+      - "Job/Discover:aispinn"
+      - "Job/ExtendedRead:aispinn"
+      - "Job/Read:aispinn"
+      - "Job/Read:authenticated"
+      - "Job/Workspace:aispinn"
+      - "Overall/Administer:EIS_GLOBAL_EIFFEL_OPS"
+      - "Overall/Administer:OSSCNCI"
+      - "Overall/Administer:PDLAZELLES"
+      - "Overall/Administer:eakyhas"
+      - "Overall/Administer:eiffelop5"
+      - "Overall/Administer:emosluc"
+      - "Overall/Read:aispinn"
+      - "Overall/Read:anonymous"
+      - "Overall/Read:authenticated"
+      - "Overall/Read:ciexadm200"
+      - "Overall/Read:eiffel004"
+      - "Run/Replay:aispinn"
+      - "Run/Update:aispinn"
+      - "SCM/Tag:aispinn"
+      - "View/Read:aispinn"
+      - "View/Read:anonymous"
+#  clouds:
+#  - lmi:
+#      cloud: "POD H"
+#      password: "Imac#Pro"
+#      server: "https://atvphspp17.athtem.eei.ericsson.se"
+#      templates: |-
+#        FAILED TO EXPORT
+#        com.ericsson.cifwk.cloud.lmicloud.jenkins.LMICloud#templates: java.lang.NullPointerException
+#          at com.ericsson.cifwk.cloud.lmicloud.jenkins.LMISlaveTemplate.getExtraLogDetails(LMISlaveTemplate.java:179)
+#          at com.ericsson.cifwk.cloud.lmicloud.jenkins.LMISlaveTemplate.getVAppTemplate(LMISlaveTemplate.java:111)
+#        Caused: java.lang.reflect.InvocationTargetException
+#          at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+#          at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+#          at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+#          at java.lang.reflect.Method.invoke(Method.java:498)
+#          at io.jenkins.plugins.casc.Attribute._getValue(Attribute.java:444)
+#        Caused: io.jenkins.plugins.casc.ConfiguratorException: Can't read attribute 'vAppTemplate' from com.ericsson.cifwk.cloud.lmicloud.jenkins.LMISlaveTemplate@56f5ae44
+#          at io.jenkins.plugins.casc.Attribute._getValue(Attribute.java:455)
+#          at io.jenkins.plugins.casc.Attribute.getValue(Attribute.java:227)
+#          at io.jenkins.plugins.casc.Attribute.equals(Attribute.java:330)
+#          at io.jenkins.plugins.casc.BaseConfigurator.compare(BaseConfigurator.java:391)
+#          at io.jenkins.plugins.casc.impl.configurators.DataBoundConfigurator.describe(DataBoundConfigurator.java:305)
+#          at io.jenkins.plugins.casc.Attribute._describe(Attribute.java:320)
+#          at io.jenkins.plugins.casc.Attribute.describe(Attribute.java:249)
+#          at io.jenkins.plugins.casc.impl.configurators.DataBoundConfigurator.describe(DataBoundConfigurator.java:310)
+#          at io.jenkins.plugins.casc.impl.configurators.HeteroDescribableConfigurator.lambda$convertToNode$de0cd4f8$1(HeteroDescribableConfigurator.java:283)
+#          at io.vavr.CheckedFunction0.lambda$unchecked$52349c75$1(CheckedFunction0.java:247)
+#          at io.jenkins.plugins.casc.impl.configurators.HeteroDescribableConfigurator.convertToNode(HeteroDescribableConfigurator.java:283)
+#          at io.jenkins.plugins.casc.impl.configurators.HeteroDescribableConfigurator.lambda$describe$5(HeteroDescribableConfigurator.java:107)
+#          at io.vavr.control.Option.map(Option.java:392)
+#          at io.jenkins.plugins.casc.impl.configurators.HeteroDescribableConfigurator.describe(HeteroDescribableConfigurator.java:107)
+#          at io.jenkins.plugins.casc.impl.configurators.HeteroDescribableConfigurator.describe(HeteroDescribableConfigurator.java:55)
+#          at io.jenkins.plugins.casc.Attribute._describe(Attribute.java:320)
+#          at io.jenkins.plugins.casc.Attribute.describe(Attribute.java:249)
+#          at io.jenkins.plugins.casc.Configurator.describe(Configurator.java:163)
+#     username: "eakyhas"
+#  - lmi:
+#      cloud: "POD H TEST"
+#      password: "Imac#Pro"
+#      server: "https://atvphspp17.athtem.eei.ericsson.se"
+#      username: "eakyhas"
+  crumbIssuer:
+    strict:
+      checkSessionMatch: false
+  disableRememberMe: false
+  globalNodeProperties:
+  - envVars:
+      env:
+      - key: "ADP_BASELINE_HOSTS_FILE"
+        value: "hosts.hoff033"
+      - key: "ADP_BASELINE_KUBE_CONFIG"
+        value: "kube.config.c07a015"
+      - key: "ADP_HELM_DR_CHECK_SKIPPED_RULES"
+        value: "-DhelmDesignRule.config.drHc001=skip"
+      - key: "ADP_HELM_DR_CHECK_TAG"
+        value: "4.2.1-7"
+      - key: "ADP_RELEASE_AUTO_TAG"
+        value: "0.1.0-156"
+      - key: "ADP_SERVICE_HOSTS_FILE"
+        value: "hosts.todd046"
+      - key: "ADP_SERVICE_KUBE_CONFIG"
+        value: "kube.config.c07a015"
+      - key: "AIA_SVC_KUBE_CONFIG"
+        value: "kube.config.c07a015"
+      - key: "BASELINE_HOSTS_FILE"
+        value: "hosts.ci.6B"
+      - key: "BASELINE_KUBE_CONFIG"
+        value: "kube.config.c07a015"
+      - key: "BOB_DOCKER_IMAGE"
+        value: "armdocker.rnd.ericsson.se/sandbox/adp-staging/adp-cicd/bob.2.0:1.6.0-28"
+      - key: "CREDENTIALS_ID_ARM_LI"
+        value: "osscnciArtifactoryApiKeySELI"
+      - key: "DOC_BUILDER_TAG"
+        value: "1.0.0-3"
+      - key: "DOCKER_SECRET_FILE"
+        value: "dockerconfig"
+      - key: "ECCD_INSTANCE_IP"
+        value: "10.210.249.154"
+      - key: "ENM_PY"
+        value: "/proj/ciexadm200/tools/enm_py-2.6_reqmnts-1.0"
+      - key: "ESON_TEST_HOST_FILE"
+        value: "hosts.ci.13A002"
+      - key: "ESON_TEST_KUBE_CONFIG"
+        value: "kube.config.c07a015"
+      - key: "EXT_NODE_IP"
+        value: "10.210.220.187"
+      - key: "GAZELLES_DOCKER_REGISTRY_CREDENTIALS"
+        value: "repositories.yaml"
+      - key: "GAZELLES_K8S_CONFIG"
+        value: "kube.config.c07a015"
+      - key: "GAZELLES_SETTINGS_XML"
+        value: "gazelles-settings.xml"
+      - key: "GERRIT_CENTRAL"
+        value: "ssh://gerrit.sero.gic.ericsson.se:29418"
+      - key: "GERRIT_MIRROR"
+        value: "ssh://gerritmirror.sero.gic.ericsson.se:29418"
+      - key: "GIT_HOME"
+        value: "/usr/bin/git"
+      - key: "HELM_DOCKER_IMAGE"
+        value: "alpine/helm:2.16.1"
+      - key: "HELM_DOCKER_IMAGE_OLD"
+        value: "linkyard/docker-helm:2.10.0"
+      - key: "HOSTS_FILE_TAF"
+        value: "hosts.ci.6B"
+      - key: "java"
+        value: "/usr/lib/jvm/java"
+      - key: "KUBE_CONFIG_STAGING"
+        value: "kube.config.c07a015"
+      - key: "KUBE_CONFIG_TAF"
+        value: "kube.config.c07a015"
+      - key: "KUBECTL_DOCKER_IMAGE"
+        value: "linkyard/kubectl kubectl"
+      - key: "KUBECTL_DOCKER_IMAGE_NEW"
+        value: "bitnami/kubectl:1.16.3"
+      - key: "M2_HOME"
+        value: "/proj/ciexadm200/tools/maven-latest"
+      - key: "MAVEN_OPTS"
+        value: "-Xmx8g -XX:MaxPermSize=1024m"
+      - key: "MVN_ARQUILLIAN"
+        value: ""
+      - key: "MVN_HOME"
+        value: "maven"
+      - key: "MVN_PCR"
+        value: "-V -U jacoco:prepare-agent install jacoco:report pmd:pmd"
+      - key: "MVN_PCR_INT"
+        value: "-V -Dts -P jboss_managed_local install -U"
+      - key: "MVN_Release"
+        value: "-V -Dresume=false release:prepare release:perform -DpreparationGoals=\"\
+          install -U\" -Dgoals=\"clean deploy pmd:pmd jacoco:report -U\" -DlocalCheckout=true"
+      - key: "MVN_SONAR"
+        value: "sonar:sonar -Dsonar.login=89e40c679a8246755284f6f328f9fc6337b6acf4\
+          \ -Dsonar.host.url=^${SONAR_HOST_URL} -Dsonar.branch.name=^${SONAR_BRANCH}\
+          \ -Dsonar.branch.target=master"
+      - key: "MVN_VERIFY_BASE_OPTIONS"
+        value: ""
+      - key: "NPM"
+        value: "/proj/ciexadm200/tools/node/0.10.26_x64/bin"
+      - key: "NPM_MESOS"
+        value: "/proj/ciexadm200/tools/node/0.10.26/lib"
+      - key: "PATH"
+        value: "/usr/sbin:/usr/bin:/proj/ciexadm200/tools/node/0.10.26/lib:/proj/ciexadm200/tools/python/python-2.6.6/bin:$ENM_PY/usr/bin:^${M2_HOME}/bin:/proj/ciexadm200/tools/node/0.10.26_x64/bin:/proj/ciexadm200/tools/cloc:/proj/ciexadm200/tools/sloccount-2.26:^${PATH}"
+      - key: "PRE_CODE_DIRECTOR"
+        value: "10.210.220.199"
+      - key: "PRE_CODE_LOADBALANCER"
+        value: "10.210.220.21"
+      - key: "PRECODE_BASELINE_KUBE_CONFIG"
+        value: "kube.config.c07a015"
+      - key: "PYTHONPATH"
+        value: "$ENM_PY/usr/lib/python2.6/site-packages:$ENM_PY/usr/lib64/python2.6/site-packages"
+      - key: "RAML_BUILDER_TAG"
+        value: "1.0.0-3"
+      - key: "SETTINGS_CONFIG_FILE_NAME"
+        value: "eson_settings.xml"
+      - key: "SKIP_SONAR_GLOBAL="
+        value: ""
+      - key: "SONAR_AUTH_TOKEN"
+        value: "092f1f6d22fd5224f239e9c5cebbb12d99ff7dfa"
+      - key: "SONARQUBE_SERVER_URL"
+        value: "https://sonarqube.lmera.ericsson.se"
+      - key: "SPIN_CLI_CONFIG"
+        value: "spin_cli_sandbox_config"
+      - key: "SQ_SERVER"
+        value: "sonarqube enterprise 77"
+      - key: "STAGING_DIRECTOR"
+        value: "10.210.221.246"
+      - key: "STAGING_LOADBALANCER"
+        value: "10.210.220.13"
+      - key: "TAF_ECCD_INSTANCE_IP"
+        value: "10.210.249.29"
+      - key: "TEAM_NAME"
+        value: ""
+      - key: "ZALLY_URL"
+        value: "http://10.45.204.215:8000/"
+  markupFormatter:
+    rawHtml:
+      disableSyntaxHighlighting: false
+  mode: EXCLUSIVE
+  myViewsTabBar: "standard"
+  nodes:
+  - permanent:
+      launcher:
+        ssh:
+          credentialsId: "8f990337-f583-477a-ab2b-1ba6579e4029"
+          host: "atvts3619.athtem.eei.ericsson.se"
+          port: 22
+          sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
+      name: "Jenkins_gazelles_podj"
+      numExecutors: 1
+      remoteFS: "/home/lciadm100/jenkins/"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "Dev-Cloud-Native"
+      launcher:
+        ssh:
+          credentialsId: "c9ccd7d9-fbcd-48c6-9597-0b732b50be3a"
+          host: "159.107.236.186"
+          port: 22
+          sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
+      mode: EXCLUSIVE
+      name: "dev_enm_cn_ci_openstack_15072020_1"
+      numExecutors: 3
+      remoteFS: "/home/lciadm100/jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "Dev-Cloud-Native-test"
+      launcher:
+        ssh:
+          credentialsId: "c9ccd7d9-fbcd-48c6-9597-0b732b50be3a"
+          host: "159.107.236.177"
+          port: 22
+          sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
+      mode: EXCLUSIVE
+      name: "dev_enm_cn_ci_openstack_15072020_2"
+      numExecutors: 3
+      remoteFS: "/home/lciadm100/jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "Dev-Cloud-Native"
+      launcher:
+        ssh:
+          credentialsId: "c9ccd7d9-fbcd-48c6-9597-0b732b50be3a"
+          host: "159.107.236.188"
+          port: 22
+          sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
+      mode: EXCLUSIVE
+      name: "dev_enm_cn_ci_openstack_15072020_3"
+      numExecutors: 3
+      remoteFS: "/home/lciadm100/jenkins"
+      retentionStrategy: "always"
+  numExecutors: 1
+  primaryView:
+    list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      includeRegex: ".*_PreCodeReview||.*_preCodeReview||.*PreCodeReview||.*preCodeReview"
+      name: "1.PreCodeReview"
+  projectNamingStrategy: "standard"
+  proxy:
+    name: "www-proxy.ericsson.se"
+    noProxyHost: "localhost, 127.0.0.1, .lmera.ericsson.se, .ericsson.se, eiffel.lmera.ericsson.se"
+    password: "{AQAAABAAAAAwOMGavOjGNVZ4VypgA6VZa8EcawNmBcqt+vj1CGmqJAh8g8QCXNIWqKJZ1aPiI4ObYOQos71MzgP5V2vUO8uQag==}"
+    port: 8080
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: false
+  scmCheckoutRetryCount: 0
+  securityRealm:
+    activeDirectory:
+      customDomain: true
+      domains:
+      - bindName: "CN=eif004ldap,OU=CA,OU=SvcAccount,OU=P001,OU=ID,OU=Data,DC=ericsson,DC=se"
+        bindPassword: "{AQAAABAAAAAgR/RTJ2TcwHpLzfy4/uQyuWBxT3Ob6RUW2pWh9Y8es9j3ZFJs4TAH5VhWxgtceVLX}"
+        name: "ericsson.se"
+        site: "Semea42"
+        tlsConfiguration: TRUST_ALL_CERTIFICATES
+      groupLookupStrategy: AUTO
+      removeIrrelevantGroups: false
+      startTls: true
+  slaveAgentPort: 0
+  systemMessage: "<pre>\r\n   ____                        _   _                \r\n\
+    \  / ___|   __ _   ____   ___  | | | |   ___   ___ \r\n | |  _   / _` | |_  /\
+    \  / _ \\ | | | |  / _ \\ / __|\r\n | |_| | | (_| |  / /  |  __/ | | | | |  __/\
+    \ \\__ \\\r\n  \\____|  \\__,_| /___|  \\___| |_| |_|  \\___| |___/\r\n      \
+    \                                                                            \
+    \                                      \r\n</pre>\r\n\r\n<div align=\"left\">\r\
+    \n  <h3 style=\"margin-bottom:0;\"><b>Gazelles Staging FEM125</b></h3>\r\n  <table\
+    \ border=\"0\" style=\"line-height: 150%;\">\r\n    <tr>\r\n      <td>\r\n\t \
+    \   <ul>\r\n          <li><a href=\"https://confluence-oss.seli.wh.rnd.internal.ericsson.com/display/CI/Gazelles\"\
+    \ target=\"_blank\">Gazelles Team</a><br>\r\n          <li><a href=\"https://gerrit.ericsson.se/#/admin/projects/OSS/com.ericsson.oss.ci/eric-oss-central-service\"\
+    \ target=\"_blank\">Central Service Test Repo</a><br>\r\n          <li><a href=\"\
+    https://gerrit.ericsson.se/#/admin/projects/OSS/com.ericsson.oss.ci/eric-oss-central-utils\"\
+    \ target=\"_blank\">CI Internal Development Repo</a><br>  \r\n        </ul>\r\n\
+    \      </td>\r\n      <td>\r\n\t    <ul>\r\n          <li><a href=\"https://jira-oss.seli.wh.rnd.internal.ericsson.com/secure/RapidBoard.jspa?rapidView=6708\"\
+    \ target=\"_blank\">Gazelles Sprint Board</a><br>                      \r\n  \
+    \        <li><a href=\"http://cicd.web.adp.gic.ericsson.se/adp_dashboard?pipelineFilter=logtransformer,searchengine,logshipper,documentdatabasepg,messagebuskf,datacoordinatorzk,pmserver&stagingFilter=ec-son\"\
+    \ target=\"_blank\"><strike>ADP Pipelines</strike></a><br>  \r\n          <li><a\
+    \ href=\"https://cicd-ng.web.adp.gic.ericsson.se/view/1/dashboard/1?columnFilter=ec-son&filter=\"\
+    \ target=\"_blank\">ADP CI/CD Dashboard</a><br>  \r\n        </ul>\r\n      </td>\
+    \  \r\n    </tr>\r\n  </table>\r\n</div>  \r\n"
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins-ci.org/update-center.json"
+  views:
+  - list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      includeRegex: ".*_PreCodeReview||.*_preCodeReview||.*PreCodeReview||.*preCodeReview"
+      name: "1.PreCodeReview"
+  - list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      includeRegex: "Admin_.*"
+      name: "Admin_Jobs"
+  - all:
+      name: "All"
+  - list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      jobNames:
+      - "eric-oss-central-baseline_GenerateCSAR"
+      - "eric-oss-central-baseline_PointFix"
+      - "eric-oss-central-baseline_PreCodeReview"
+      - "eric-oss-central-baseline_Release"
+      - "eric-oss-central-baseline_Staging"
+      name: "Baseline"
+  - list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      jobNames:
+      - "E2E_Test_Pipeline"
+      - "Test_flow_eric_enmsg_ha_proxy_build_trigger"
+      - "Test_flow_iso_build_trigger"
+      - "Test_flow_RHEL_6_Base_build_trigger"
+      - "Test_flow_SYNC_trigger"
+      name: "CN CI "
+  - list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      jobFilters:
+      - jobStatusFilter:
+          aborted: true
+          disabled: true
+          failed: true
+          includeExcludeTypeString: "includeMatched"
+          stable: true
+          unstable: true
+      - buildTrendFilter:
+          amount: 365.0
+          amountTypeString: "Days"
+          buildCountTypeString: "Latest"
+          includeExcludeTypeString: "excludeMatched"
+          statusTypeString: "Completed"
+      name: "JobsOlderThan1Year"
+      statusFilter: false
+  - buildMonitor:
+      jobNames:
+      - "pmul-service-testware_PreCodeReview"
+      - "pmul-service-testware_Release"
+      - "pmul-service_Acceptance"
+      - "pmul-service_CommitLoop"
+      - "pmul-service_PreCodeReview"
+      - "pmul-service_Release"
+      - "sa-ui_PreCodeReview"
+      - "sa-ui_Release"
+      - "sa-ui_SonarQube"
+      - "sa-ui_Unit"
+      - "Sunrise_Full_vApp_KGB+N"
+      - "Sunrise_SSGID_KGB+N"
+      name: "ULSA_JOBS"
+      title: "ULSA_JOBS"
+  - list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      jobNames:
+      - "test-when-checking-for-changes-to-dependencies"
+      - "test-when-clause-permutations"
+      name: "eseadoa"
+  - list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      jobNames:
+      - "sq_free"
+      name: "etrismo"
+  viewsTabBar: "standard"
+security:
+  anonymizeSupportBundle:
+    enabled: false
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  downloadSettings:
+    useBrowser: false
+  sSHD:
+    port: -1
+  scriptApproval:
+    approvedSignatures:
+    - "method io.jenkins.plugins.casc.ConfigurationAsCode configure"
+    - "method org.jenkinsci.plugins.workflow.support.actions.EnvironmentAction getEnvironment"
+    - "staticMethod io.jenkins.plugins.casc.ConfigurationAsCode get"
+unclassified:
+  badgePlugin:
+    disableFormatHTML: false
+  bitbucketEndpointConfiguration:
+    endpoints:
+    - bitbucketCloudEndpoint:
+        enableCache: false
+        manageHooks: false
+        repositoriesCacheDuration: 0
+        teamCacheDuration: 0
+  buildFailureAnalyzer:
+    doNotAnalyzeAbortedJob: false
+    gerritTriggerEnabled: true
+    globalEnabled: true
+    graphsEnabled: false
+    knowledgeBase: "localFile"
+    maxLogSize: 0
+    noCausesEnabled: true
+    noCausesMessage: "No problems were identified. If you know why this problem occurred,\
+      \ please add a suitable Cause for it."
+    nrOfScanThreads: 3
+    testResultParsingEnabled: false
+  buildMonitorView:
+    permissionToCollectAnonymousUsageStatistics: true
+  buildStepOperation:
+    enabled: false
+  buildTimestamp:
+    enableBuildTimestamp: true
+    pattern: "yyyy-MM-dd HH:mm:ss z"
+    timezone: "Europe/Stockholm"
+  claimConfig:
+    blockAutoRefreshWhileClaiming: false
+    propagateToFollowingBuildsByDefault: false
+    sendEmails: false
+    sortUsersByFullName: false
+    stickyByDefault: true
+  defaultFolderConfiguration:
+    healthMetrics:
+    - worstChildHealthMetric:
+        recursive: true
+  extendedEmailPublisher:
+    adminRequiredForTemplateTesting: false
+    allowUnregisteredEnabled: false
+    charset: "UTF-8"
+    debugMode: false
+    defaultBody: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:\r\n\r\nCheck\
+      \ console output at $BUILD_URL to view the results."
+    defaultContentType: "text/plain"
+    defaultSubject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!"
+    maxAttachmentSize: -1
+    maxAttachmentSizeMb: 0
+    precedenceBulk: false
+    useSsl: false
+    watchingEnabled: false
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    hookUrl: "https://fem125-eiffel004.lmera.ericsson.se:8443/jenkins/github-webhook/"
+  gitSCM:
+    createAccountBasedOnEmail: false
+    globalConfigEmail: "osscnci@ericsson.com"
+    globalConfigName: "osscnci"
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  globalConfigFiles:
+    configs:
+    - mavenSettings:
+        comment: "User settings (id=gazelles-settings.xml)"
+        content: |-
+          <?xml version="1.0" encoding="UTF-8"?>
+          <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+              <mirrors>
+                  <mirror>
+                      <id>nexus</id>
+                      <mirrorOf>central</mirrorOf>
+                      <url>https://arm1s11-eiffel004.eiffel.gic.ericsson.se:8443/nexus/content/groups/public</url>
+                  </mirror>
+              </mirrors>
+              <profiles>
+                  <profile>
+                      <id>nexus</id>
+                      <repositories>
+                          <repository>
+                              <id>EC_SON_Central</id>
+                              <url>https://arm104-eiffel004.lmera.ericsson.se:8443/nexus/content/groups/public</url>
+                              <releases>
+                                  <enabled>true</enabled>
+                                  <updatePolicy>always</updatePolicy>
+                              </releases>
+                              <snapshots>
+                                  <enabled>true</enabled>
+                              </snapshots>
+                          </repository>
+                      </repositories>
+                  </profile>
+              </profiles>
+              <activeProfiles>
+                  <activeProfile>nexus</activeProfile>
+              </activeProfiles>
+          </settings>
+        id: "gazelles-settings.xml"
+        isReplaceAll: true
+        name: "gazelles-settings.xml"
+        providerId: "org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig"
+    - custom:
+        comment: "Gazelle CCD cluster"
+        content: |-
+          apiVersion: v1
+          clusters:
+          - cluster:
+              certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURnVENDQW1tZ0F3SUJBZ0lKQUpPRWxKK29SM2ZXTUEwR0NTcUdTSWIzRFFFQkN3VUFNRmN4Q3pBSkJnTlYKQkFZVEFrWkpNUkF3RGdZRFZRUUlEQWRWZFhOcGJXRmhNUTR3REFZRFZRUUhEQVZGYzNCdmJ6RU9NQXdHQTFVRQpDZ3dGUTJ4dmRXUXhGakFVQmdOVkJBTU1EVXQxWW1WeWJtVjBaWE10WTJFd0hoY05NVGt3TWpFeE1UUTBOak15CldoY05Namt3TWpBNE1UUTBOak15V2pCWE1Rc3dDUVlEVlFRR0V3SkdTVEVRTUE0R0ExVUVDQXdIVlhWemFXMWgKWVRFT01Bd0dBMVVFQnd3RlJYTndiMjh4RGpBTUJnTlZCQW9NQlVOc2IzVmtNUll3RkFZRFZRUUREQTFMZFdKbApjbTVsZEdWekxXTmhNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQXhIY0UvWjdyCis3Z1RTQ2xuWndOK1cwVkZ5TkFndkRjZ24vMENhb21DVjg3R3NxU2pYNWtVbkxkamVhY0ZQRlBwMVBwZWlqbm0KTDI2UVlyMXRLaGM4eU1yckljaDFQSmVoOEVOS3h3cGN3b3NMaUFDbUs1YjZTSjBTUlNGNWl6SmJPSys3SFNRWgorYnA3ZHJSMnhJcDYxdWR4SnhaQ1laL0lGZ1VGRXpENjBSLzQzalIwRnYxNi9yQSsvMEpQTlZEZnl4dzVVV1BMCkExV2F1ZVVZeE5NeUlrdVdXK1Q1SUxqSThpWFFLdnNVZThlWHJCWnZtcXNmSFFpbmowd2VaTnE0d2hGZkNoZW0Kc1F1NDNzdlp1d1Q1eVcwdFdnMkk3MmNRNWtRbzR0MFBLNFkrd2pDTEF4b3dtdlpWK2dyeXd5V0ZTZGxZSVAwYQo2VVZoaXRGczRxVHNSd0lEQVFBQm8xQXdUakFkQmdOVkhRNEVGZ1FVN0w5SWtFVU1XdkV2ay9oMzVOVjhxWDQyCkZlSXdId1lEVlIwakJCZ3dGb0FVN0w5SWtFVU1XdkV2ay9oMzVOVjhxWDQyRmVJd0RBWURWUjBUQkFVd0F3RUIKL3pBTkJna3Foa2lHOXcwQkFRc0ZBQU9DQVFFQUlZQ1BubnJOR05NRm83RHRLZkMwYWhrVG5SdStLZG5DcUZ3bAp1b2w1dE9GN3JWSFlHWksxVDcyWEtiejE5dXNyUkpBN1ZXa2NOblowWTM1TXU3dkRmcWNkZW5MU0ZzZFpiMkhxCmZ1aS9lYmhaZGcycGUyUGE3c2crSWhPUVlOQWVNVWY2c1duNlJFZGxUVDVIaFRTcTFheE53RmdLNzNaRCtJR0kKamcrMEFMRWRlRzk1NzNzb3NnY280ck4weGJEeUxnTHFTYVZxMWZXc1JNbDNETzlrVWkvMWlnTGxNdFErQ3dhVgphV2JnZjYzbXRvbjBhZ0tWMFRldllDSzNYMHpWb1RWSWd2bG5iaVc5MURtdnpKR29JWmhKYmFwcWJYK2loQTRYCnRtKzBKcE9YbnRlN0pJVkw1c2g0dHZEanVPS2tVeWZnRkhVNUVvdHdDVE5nMHRHTTZRPT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+              server: https://api.ccd-sc-c7a15.athtem.eei.ericsson.se
+            name: kubernetes
+          contexts:
+          - context:
+              cluster: kubernetes
+              user: kubernetes-admin
+            name: kubernetes-admin@kubernetes
+          current-context: kubernetes-admin@kubernetes
+          kind: Config
+          preferences: {}
+          users:
+          - name: kubernetes-admin
+            user:
+              client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURWVENDQWoyZ0F3SUJBZ0lJSjc4K2JQNm9uWmt3RFFZSktvWklodmNOQVFFTEJRQXdWekVMTUFrR0ExVUUKQmhNQ1Jra3hFREFPQmdOVkJBZ01CMVYxYzJsdFlXRXhEakFNQmdOVkJBY01CVVZ6Y0c5dk1RNHdEQVlEVlFRSwpEQVZEYkc5MVpERVdNQlFHQTFVRUF3d05TM1ZpWlhKdVpYUmxjeTFqWVRBZUZ3MHhPVEF5TVRFeE5EUTJNekphCkZ3MHlNVEF6TURJeE1qQTVNVFZhTURReEZ6QVZCZ05WQkFvVERuTjVjM1JsYlRwdFlYTjBaWEp6TVJrd0Z3WUQKVlFRREV4QnJkV0psY201bGRHVnpMV0ZrYldsdU1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQgpDZ0tDQVFFQXF0ZE1HZ0RxbjZxc21JbDI5TVAybkI0cUpQZXh4a1ZQd1J6NDdKUU9iQVUvZFNXekdJbk9MdXJGCjJJV3labUtSL0xEdFFvY2o3ZVVTWldxUC8wODhTSGtnMzFjQ0d3NlYrTW80NVVjUy8vYWNxNUh3bGpyMUpUYUkKZXJDWWlYbXNGdzVVUVYweDNXNmhwTE5KQmR5eWpveW1MZ2h0L0xmZVhqYVVnVm40QUMrakRFeTZ6T2RiMzlFZwozQitqd0JzclIrOXlRV3VzYlZSUE9vWG4ybi96ZXhUSTBHRWExcmJCNWxURUVZRm9JV0puYmRncGJ5YXFmV2FkClFYR0FucXNrMnN3dlVIOUZBRGFXRWRyaWF5QnFpZlFmTGJ3emtTMFI5Wjh6ZzBnTk9zRG5icXhlcHlSdlNKSnEKYnhYUmRoK0YybUVleHZKb0l0QWY3MUN2QkhLbytRSURBUUFCbzBnd1JqQU9CZ05WSFE4QkFmOEVCQU1DQmFBdwpFd1lEVlIwbEJBd3dDZ1lJS3dZQkJRVUhBd0l3SHdZRFZSMGpCQmd3Rm9BVTdMOUlrRVVNV3ZFdmsvaDM1TlY4CnFYNDJGZUl3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUhxWDJHd2o4RjVXcm9RdHNFMUpXUTR6V2Z1dnd6aFcKTnNUcnhsUWVUVEs5elhxVWFWci9yY0wySzhWbVVxMkRqbzgyand5RVZjcnBkUmFIM0lTRk1IalJ6SmVDN2NTbgp1Q0s3MGh0NE5VaGFsMEJXSlhUajBxZ2ZFaXpkQ0V6NXEyam5BZVBGdzllVklzZ3lzNnZBR1d0YzFLOUxhMnpsCjFXbzZVY3JUNDVZL1dTQTZCempKR3k4cHcwZmMwL3NyWkZVWmpBRUJESUtwU3NBeld0d0hiZzl4aGd0SkxEeXgKcnRoMGtiTEpZOEVDVUFNVll0RnZZS21ZaHJjOGdGWGx2ZmpvR0FWQytuaE9kenNXNTc5MVI4S2lYZHNKUXpuSAp6YmIvd1FkWjRHQ2RsNmtEK2N5OHAvRTc2VmxkRGJBaHBGNnVWUzZtTlI2STcvbThNVytYcUVjPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+              client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFcFFJQkFBS0NBUUVBcXRkTUdnRHFuNnFzbUlsMjlNUDJuQjRxSlBleHhrVlB3Uno0N0pRT2JBVS9kU1d6CkdJbk9MdXJGMklXeVptS1IvTER0UW9jajdlVVNaV3FQLzA4OFNIa2czMWNDR3c2VitNbzQ1VWNTLy9hY3E1SHcKbGpyMUpUYUllckNZaVhtc0Z3NVVRVjB4M1c2aHBMTkpCZHl5am95bUxnaHQvTGZlWGphVWdWbjRBQytqREV5Ngp6T2RiMzlFZzNCK2p3QnNyUis5eVFXdXNiVlJQT29YbjJuL3pleFRJMEdFYTFyYkI1bFRFRVlGb0lXSm5iZGdwCmJ5YXFmV2FkUVhHQW5xc2syc3d2VUg5RkFEYVdFZHJpYXlCcWlmUWZMYnd6a1MwUjlaOHpnMGdOT3NEbmJxeGUKcHlSdlNKSnFieFhSZGgrRjJtRWV4dkpvSXRBZjcxQ3ZCSEtvK1FJREFRQUJBb0lCQVFDZm14S2EvSjQxMnZMeQpjd0t5ZTEycXpyZWEzOW16SFUvOFgzL2pMaE1uTWVQdUl2Rm1ER0NYRG5rVjV4b2JjeDFtVVRqbnZXK0FzbEQwCmRKRGcrZnFjenFVNllvUXlHUGRkZmplWFpFWkk0ZkhPakVLVFo3TmROOHhicXg1bTJVaEFKZi9yTFJFSUNYSjAKZDViU0pqU2UzcUhtUWJQWHRVUEhDd0RFcy9QdzN3amtOT2t1R3NObTdLVzMxZ2h1dksxWXlRYjhObWRQaWhJVApyaGViYWR2eG5Pc2FTOUVFTVg5STUvR1dmdEJYaHRxSDRJcW5TRHhoRi80ckh0T0VmaDYvekpYSVE1ZDAvcUE4ClVmb2lBVVNEc0pZV0ZBUWt2cC8vT2JnTTFQOXp4Smw1RENRZ0YybHdkeUxRaml4QkhoamtDeHIvSmJieUZDbm4KOHVldE9xbjlBb0dCQU1UNlVSck9RZTJoTEh3bnZNUm9wUmE0NDRTTC9lM0ZGWjhGTHJad1plMXYrZ2ZOeC9ucwpEOHhUVnd1TGhBTno5cFB4S0FKZSszOStoYXNrL2RNV1VTZG9rTlRPYkZ2LzVOc2xLZm1hS3VhcmZRN0JaYUJPCmxXellGZHNkakh4TVgrTmdsaE15NlRsYytzeGN1bkRTTlN1QW9rTXAyZVMyM3JrZDluUmU3YmpIQW9HQkFONEkKRjFMVTBGMW9rVVBqUjJ3R3NvMVdpNFNGcjhKSlpNU0w3R05pdGlyb0hmdWxWNFE0R3liYUJ6Qm1UOGlqcEFFRQpVUHFRVkg3My9KQytjM1V3ckpBU1VJbDgveEpiM1k0OW4vcGZma0R2NkpJekVwTjVjQWlpMGhJL2E2VnVzTFFlCi9TeHcvaW5YWnpnbktxak9VYjZpbVI1WURKdjFJNVJ2RE1tRUxGQS9Bb0dBWWN5UzFrZFFMb2JXaW5KRVpCUTgKMjNKQzdIMkJQenVhUjVFUUoxN1pETEdMSjdMQk5sSkJhY1o3TW0wN3gyY2RKMGtWLzA5ZmVXYTlRVU1sajFmRwpSVlhDaXhaT2NNTTF3cVRLR1hhMUZFQlM0Qytmb0o5RHkzM2lKQitncjlwUHhab2dDVG8rMTg5VmFvQWp4WDVwCkRjZFpTUldQYk9KcTVPaCtoRHJadHVNQ2dZRUFoOTA5b0hNWFdjRk4rdFBOOVoyWGp3TmhkbU56N0ppS3IvYkwKWFBtZmJWd0NWT1dWU3hRbUVUMGpYd3VNVU1OSjdWRmQyQ1dQZnU1eXY0TzdGUUFHNkZZOHNCVXI1R2tRaHlUUQppeDM2SFBSeFJWMDVSY0x1dW1vZjBBaTg3MHR2bDVqSzVYSHpKVmxwRVNSdVowTnhKQTFOVXhNZ0RDTVNkWmNLCnBSbGJJSE1DZ1lFQWw1R05VRm53WjVNcjRkWlJ0dHAybEdjbE82N2hucEZOTUhoMXdpZUlkbk1IRHc1VjNlSGUKdmFybnFDYVZRTm1KaE14cUw0aFZPZ1d0NzNaZlYwUWl5UUNhd0lYYytjQ29ZM2dXK1Q2RVpEQ1k3aEw3YS9SUAp0M0RDN0V2cWR4bU9CczFwcmF5UXlBNHZ0dkM4SlBhTnhnYk52OENvemJYOXpiYVFOUWVyTkY4PQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQo=
+        id: "kube.config.c07a015"
+        name: "config"
+        providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
+    - custom:
+        comment: "kube.config.c13a010 (Will Not Work, to be removed)"
+        content: |-
+          apiVersion: v1
+          clusters:
+          - cluster:
+              certificate-authority-data: aaa=
+              server: https://api.ccd-c13a010.athtem.eei.ericsson.se
+            name: kubernetes
+          contexts:
+          - context:
+              cluster: kubernetes
+              user: kubernetes-admin
+            name: kubernetes-admin@kubernetes
+          current-context: kubernetes-admin@kubernetes
+          kind: Config
+          preferences: {}
+          users:
+          - name: kubernetes-admin
+            user:
+              client-certificate-data: aaa==
+              client-key-data: aaa==
+        id: "kube.config.c13a010"
+        name: "config"
+        providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
+    - custom:
+        comment: "repositories.yaml containing the credentials to multiple armdocker\
+          \ instances for osscnci (id=repositories.yaml)"
+        content: |-
+          repositories:
+          - url: https://arm.seli.gic.ericsson.se/artifactory/proj-eric-oss-central-drop-helm/
+            username: "osscnci"
+            password: "AKCp5ekwNiDMJv3pSGxQpF9KMgbA7SjxrDGiDxnEYDR2SMkDa93hMYhddRVLyMgJQmo79rRac"
+        id: "repositories.yaml"
+        name: "repositories.yaml"
+        providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
+    - custom:
+        comment: "Spin CLI Spinnaker Sandbox config file"
+        content: |-
+          gate:
+            endpoint: https://spinnaker-sandbox-api.rnd.gic.ericsson.se
+          auth:
+            enabled: true
+            basic:
+              username: osscnci
+              password: Tg0prL8Y1Ly4ulIeF0h6qqXu?
+        id: "spin_cli_sandbox_config"
+        name: "config"
+        providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
+  globalLibraries:
+    libraries:
+    - defaultVersion: "master"
+      name: "son-dev-utils-shared-library"
+      retriever:
+        modernSCM:
+          scm:
+            git:
+              credentialsId: "bb9f48b1-1cec-43ae-a30a-f7c6e24a1446"
+              id: "1ab871a7-466d-4943-bb88-0a4d0a3ac31e"
+              remote: "ssh://gerrit.ericsson.se:29418/OSS/com.ericsson.oss.services.sonom/son-dev-utils"
+              traits:
+              - "gitBranchDiscovery"
+    - defaultVersion: "master"
+      name: "eric-oss-central-utils-shared-library"
+      retriever:
+        modernSCM:
+          scm:
+            git:
+              id: "02aee5ac-29ec-4c21-8f67-c336832a72b8"
+              remote: "ssh://gerrit.ericsson.se:29418/OSS/com.ericsson.oss.ci/eric-oss-central-utils"
+              traits:
+              - "gitBranchDiscovery"
+    - defaultVersion: "master"
+      name: "ci-pipeline-lib"
+      retriever:
+        modernSCM:
+          scm:
+            git:
+              credentialsId: "bb9f48b1-1cec-43ae-a30a-f7c6e24a1446"
+              id: "e1528993-4205-4155-91f4-87bd65ab6646"
+              remote: "ssh://gerrit.ericsson.se:29418/OSS/com.ericsson.oss.de/ci-pipeline-SQ-Test"
+              traits:
+              - "gitBranchDiscovery"
+  globalSettings:
+    failOnCorrupt: false
+    noAuthors: false
+    quietMode: false
+  location:
+    adminAddress: "FEM125-EIFFEL004 <jenkins_monitoring@ericsson.com>"
+    url: "https://fem125-eiffel004.lmera.ericsson.se:8443/jenkins/"
+  mailer:
+    charset: "UTF-8"
+    useSsl: false
+    useTls: false
+  mavenModuleSet:
+    localRepository: "default"
+  pollSCM:
+    pollingThreadCount: 10
+  publishConfluence:
+    sites:
+    - password: "{AQAAABAAAAAgDsxwFck8YRglY03Tezy0VMO2M/byzZt+5YwSmOocSAypLUooJ+/VFHhqcIYZcz4P}"
+      url: "https://confluence-nam.lmera.ericsson.se/"
+      username: "enmadm100"
+  sonarGlobalConfiguration:
+    buildWrapperEnabled: false
+    installations:
+    - credentialsId: "osscnci"
+      name: "sonarqube enterprise 77"
+      serverUrl: "https://codeanalyzer2.internal.ericsson.com"
+      triggers:
+        skipScmCause: false
+        skipUpstreamCause: false
+    - credentialsId: "osscnci"
+      name: "sonarqube"
+      serverUrl: "https://sonarqube.lmera.ericsson.se"
+      triggers:
+        skipScmCause: false
+        skipUpstreamCause: false
+  timestamperConfig:
+    allPipelines: false
+    elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
+    systemTimeFormat: "'<b>'HH:mm:ss'</b> '"
+tool:
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
+    - home: "/proj/ciexadm200/tools/git/1.8.4.2/bin/git"
+      name: "git 1.8.4.2"
+    - home: "/proj/ciexadm200/tools/git/1.8.1.4/bin/git"
+      name: "GIT 1.8.1.4 Test"
+    - home: "/proj/ciexadm200/tools/git/2.3.0/bin/git"
+      name: "Git 2.3.0"
+  jdk:
+    installations:
+    - home: "/openjdk/8/jdk8u222-b10/"
+      name: "jdk8"
+    - home: "/proj/ciexadm200/tools/jdk/7/jdk1.7.0_21"
+      name: "JDK 1.7.0_21"
+    - home: "/proj/ciexadm200/tools/jdk/8/jdk1.8.0_101"
+      name: "JDK 1.8.0_101 vApp"
+    - home: "/usr/java/jdk1.8.0_191"
+      name: "JDK 1.8.0_191_Cloud"
+    - home: "/usr/lib/jvm/jre-1.8.0-openjdk"
+      name: "JDK 1.8.0_191_vApp"
+  maven:
+    installations:
+    - home: "/proj/lciadm100/tools/apache-maven-3.0.5/"
+      name: "Maven 3.0.5"
+    - name: "Maven 3.1.0"
+      properties:
+      - installSource:
+          installers:
+          - maven:
+              id: "3.1.0"
+    - home: "/home/lciadm100/tools/apache-maven-3.0.4/"
+      name: "Maven 3.0.4"
+    - home: "/proj/lciadm100/tools/maven-latest"
+      name: "Maven-KGB"
+    - name: "maven"
+      properties:
+      - installSource:
+          installers:
+          - maven:
+              id: "3.6.1"
+  pipelineMaven:
+    triggerDownstreamUponResultAborted: false
+    triggerDownstreamUponResultFailure: false
+    triggerDownstreamUponResultNotBuilt: false
+    triggerDownstreamUponResultSuccess: true
+    triggerDownstreamUponResultUnstable: false
+  sonarRunnerInstallation:
+    installations:
+    - name: "SonarScanner4.3"
+      properties:
+      - installSource:
+          installers:
+          - sonarRunnerInstaller:
+              id: "4.3.0.2102"

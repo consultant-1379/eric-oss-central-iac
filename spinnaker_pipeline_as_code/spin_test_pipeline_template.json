@@ -1,0 +1,75 @@
+{
+  "schema": "v2",
+  "application": "spin-pipeline-as-code-test-app",
+  "name": "spin-pipeline-test1",
+  "description": "Spinnaker pipeline-as-Code test",
+  "keepWaitingPipelines": true,
+  "lastModifiedBy": "eseulea",
+  "limitConcurrent": true,
+  "spelEvaluator": "v4",
+  "stages": [
+    {
+      "continuePipeline": false,
+      "failPipeline": true,
+      "job": "eric-oss-test-dashboard",
+      "markUnstableAsSuccessful": true,
+      "master": "eson-aispinn-fem163-eiffel004",
+      "name": "eric-oss-test-dashboard",
+      "parameters": {},
+      "refId": "1",
+      "requisiteStageRefIds": [],
+      "type": "jenkins"
+    },
+    {
+      "continuePipeline": false,
+      "failPipeline": true,
+      "job": "eric-oss-test-dashboard-2",
+      "markUnstableAsSuccessful": true,
+      "master": "eson-aispinn-fem163-eiffel004",
+      "name": "eric-oss-test-dashboard-2",
+      "parameters": {},
+      "refId": "2",
+      "requisiteStageRefIds": [],
+      "type": "jenkins"
+    },
+    {
+      "continuePipeline": false,
+      "failPipeline": true,
+      "job": "eric-oss-test-dashboard-3",
+      "markUnstableAsSuccessful": true,
+      "master": "eson-aispinn-fem163-eiffel004",
+      "name": "eric-oss-test-dashboard-3",
+      "parameters": {},
+      "refId": "3",
+      "requisiteStageRefIds": [],
+      "type": "jenkins"
+    },
+    {
+      "completeOtherBranchesThenFail": false,
+      "continuePipeline": false,
+      "failPipeline": true,
+      "job": "eric-oss-test-dashboard-4",
+      "master": "eson-aispinn-fem163-eiffel004",
+      "name": "eric-oss-test-dashboard-4",
+      "parameters": {},
+      "refId": "4",
+      "requisiteStageRefIds": [
+        "1",
+        "2",
+        "3"
+      ],
+      "sendNotifications": false,
+      "stageTimeoutMs": 1620000,
+      "type": "jenkins"
+    }
+  ],
+  "triggers": [
+    {
+      "cronExpression": "0 0 21 ? * * *",
+      "enabled": false,
+      "id": "7048ab32-7d91-4c5e-b69e-8b9c4cad10a1",
+      "type": "cron"
+    }
+  ],
+  "updateTs": "1593173510715"
+}
